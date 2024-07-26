@@ -1,0 +1,147 @@
+services:
+  - type: web
+    name: clients-bot
+    plan: free
+    runtime: python
+    repo: https://github.com/Senior-ai/DiamondProjectDelivery
+    buildCommand: "cd ClientsBot && ./build.sh"  # Adjust if necessary
+    startCommand: "python manage.py runserver 0.0.0.0:8001"
+    envVars:
+      - key: DB_HOST
+        value: ${db_host}
+      - key: DB_PORT
+        value: ${db_port}
+      - key: DB_USER
+        value: ${db_user}
+      - key: DB_PASSWORD
+        value: ${db_password}
+      - key: DB_NAME
+        value: ${db_name}
+      - key: BOT_TOKEN
+        value: ${clients_bot_token}
+      - key: OPENAI_API_KEY
+        value: ${openai_api_key}
+      - key: JSON_EXTRACTOR_ASSISTANT_ID
+        value: ${json_extractor_assistant_id}
+      - key: SELLERS_BOT_BACKEND_URL
+        value: http://sellers-bot:8001
+      - key: PAYMENT_PROVIDER_TERMINAL
+        value: ${payment_provider_terminal}
+      - key: PAYMENT_PROVIDER_API_NAME
+        value: ${payment_provider_api_name}
+      - key: LOG_LEVEL
+        value: ${log_level}
+    dependsOn:
+      - name: database
+        healthCheckPath: "/api/v1/alive"
+        protocol: "http"
+        port: 8001
+        healthCheckIntervalSeconds: 60
+        healthCheckTimeoutSeconds: 5
+        healthCheckStartTimeoutSeconds: 10
+        healthCheckRetries: 5
+
+  - type: web
+    name: sellers-bot
+    plan: free
+    runtime: python
+    repo: https://github.com/Senior-ai/DiamondProjectDelivery
+    buildCommand: "cd SellersBot && ./build.sh"  # Adjust if necessary
+    startCommand: "python manage.py runserver 0.0.0.0:8001"
+    envVars:
+      - key: DB_HOST
+        value: ${db_host}
+      - key: DB_PORT
+        value: ${db_port}
+      - key: DB_USER
+        value: ${db_user}
+      - key: DB_PASSWORD
+        value: ${db_password}
+      - key: DB_NAME
+        value: ${db_name}
+      - key: BOT_TOKEN
+        value: ${sellers_bot_token}
+      - key: OPENAI_API_KEY
+        value: ${openai_api_key}
+      - key: JSON_EXTRACTOR_ASSISTANT_ID
+        value: ${json_extractor_assistant_id}
+      - key: B2B_GROUP_ID
+        value: ${b2b_group_id}
+      - key: BOT_BACKEND_HOST
+        value: 0.0.0.0
+      - key: BOT_BACKEND_PORT
+        value: 8001
+      - key: BACKEND_URL
+        value: ${backend_url}
+      - key: PAYMENT_PROVIDER_API_NAME
+        value: ${payment_provider_api_name}
+      - key: PAYMENT_PROVIDER_TERMINAL
+        value: ${payment_provider_terminal}
+      - key: LOG_LEVEL
+        value: ${log_level}
+    dependsOn:
+      - name: database
+        healthCheckPath: "/api/v1/alive"
+        protocol: "http"
+        port: 8001
+        healthCheckIntervalSeconds: 60
+        healthCheckTimeoutSeconds: 5
+        healthCheckStartTimeoutSeconds: 10
+        healthCheckRetries: 5
+
+  - type: web
+    name: backend
+    plan: free
+    runtime: python
+    repo: https://github.com/Senior-ai/DiamondProjectDelivery
+    buildCommand: "cd Backend && ./build.sh"  # Adjust if necessary
+    startCommand: "python manage.py runserver 0.0.0.0:8002"
+    envVars:
+      - key: DB_HOST
+        value: ${db_host}
+      - key: DB_PORT
+        value: ${db_port}
+      - key: DB_USER
+        value: ${db_user}
+      - key: DB_PASSWORD
+        value: ${db_password}
+      - key: DB_NAME
+        value: ${db_name}
+      - key: BACKEND_HOST
+        value: 0.0.0.0
+      - key: BACKEND_PORT
+        value: 8002
+      - key: SELLERS_BOT_HOST
+        value: sellers-bot
+      - key: SELLERS_BOT_PORT
+        value: 8001
+      - key: CLIENTS_BOT_HOST
+        value: clients-bot
+      - key: CLIENTS_BOT_PORT
+        value: 8001
+      - key: ENVIRONMENT
+        value: ${environment}
+      - key: BACKEND_ACCESS_TOKEN
+        value: ${backend_access_token}
+      - key: LOG_LEVEL
+        value: ${log_level}
+    dependsOn:
+      - name: database
+        healthCheckPath: "/api/v1/alive"
+        protocol: "http"
+        port: 8001
+        healthCheckIntervalSeconds: 60
+        healthCheckTimeoutSeconds: 5
+        healthCheckStartTimeoutSeconds: 10
+        healthCheckRetries: 5
+
+databases:
+  - name: database
+    plan: free
+    envVars:
+      - key: POSTGRES_USER
+        value: ${db_user}
+      - key: POSTGRES_PASSWORD
+        value: ${db_password}
+volumes:
+  db_data:
