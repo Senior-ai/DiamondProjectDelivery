@@ -1,0 +1,303 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: v1.0.0\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "start_message"
+msgstr ""
+"Hello, I am MAZAL, and I'm here to help you get organized.\n"
+"It's challenging for all of us to keep track of all the requests in the groups,\n"
+"which often leads to missed sales...\n"
+"\n"
+"To prevent this, you can upload your inventory in an Excel file,\n"
+"and we will ensure that whenever someone is looking for the stones you have,\n"
+"you will receive an automatic notification that someone is searching for the stone.\n"
+"\n"
+"This message will include the stone's parameters and an option to contact the buyer with a simple click,\n"
+"so you won't have to track the group daily. The messages will come to you automatically in private.\n"
+"\n"
+"Before we begin, click the button below to subscribe. Our service costs $10.99 per month.\n"
+"Don't worry; you can bill the invoice to your company's name."
+
+msgid "help_message"
+msgstr ""
+"📋 **Available Commands:**\n"
+"\n"
+"🔹 /start: Starts the bot. This command initiates interaction with the bot and provides a way to make a payment.\n"
+"🔹 /settings: Settings menu. Allows you to change the language.\n"
+"🔹 /sold: Mark a diamond as sold. Provide the Diamond Stock number, and the bot will update the central database to remove it from the available stock.\n"
+"🔹 /help: Get a list of available commands with brief descriptions."
+
+msgid "unknown_command_error"
+msgstr "❌ Error: Unknown command."
+
+msgid "lost_context_error"
+msgstr "❌ Lost context. Please, try needed command again."
+
+msgid "settings_message"
+msgstr "⚙️ Settings:\n"
+"🌍 Your current language: English"
+
+msgid "change_language_button"
+msgstr "Change language"
+
+msgid "choose_new_language_prompt"
+msgstr "Choose language:"
+
+msgid "choose_new_language_callback_query_reply"
+msgstr "Please, choose new language."
+
+msgid "english_language_option_button"
+msgstr "English"
+
+msgid "hebrew_language_option_button"
+msgstr "Hebrew"
+
+msgid "settings_session_expired_message"
+msgstr "⏰ Your settings session has expired. Please, open settings again using /settings command."
+
+msgid "close_button"
+msgstr "Close"
+
+msgid "back_button"
+msgstr "Back"
+
+msgid "language_was_changed_to_{}"
+msgstr "Language was changed to: {}"
+
+msgid "interested_client_present_notification"
+msgstr "🔔 There is one interested in your diamonds client! Contact him to discuss the details!\n\n"
+"🔎 Queried diamonds:\n"
+"{}\n\n"
+"📦 Similar diamonds from your stock:\n"
+"```\n"
+"{}\n"
+"```"
+
+msgid "free_interested_client_present_notification"
+msgstr "🔔 Diamonds from your stock noticed in a group! Contact the person to discuss the details!\n\n"
+"🔎 Queried diamonds:\n"
+"{}\n\n"
+"📦 Similar diamonds from your stock:\n"
+"```\n"
+"{}\n"
+"```"
+
+msgid "subscription_activated_notification"
+msgstr "✅ Subscription activated!\n"
+"💡 Now, you'll receive notifications about new interested clients.\n"
+"💡 Also you can send your diamonds stock as a .csv file to receive notifications about interested clients!"
+
+msgid "invalid_file_type_error"
+msgstr "❌ Invalid file type. You have to send a CSV file."
+
+msgid "invalid_header_in_csv_file_error"
+msgstr "❌ Invalid header in CSV file. {}"
+
+msgid "invalid_row_in_csv_file_error"
+msgstr "❌ Invalid row in CSV file. {}"
+
+msgid "invalid_value_in_csv_file_error"
+msgstr "❌ Invalid value in CSV file. {}"
+
+msgid "csv_file_error"
+msgstr "❌ Error in CSV file. {}"
+
+msgid "list_of_pairs_preview"
+msgstr ""
+"📦 Pairs preview:\n"
+"```\n"
+"{}\n"
+"```"
+
+msgid "csv_file_processed_successfully_with_pairs"
+msgstr ""
+"✅ CSV file processed successfully.\n"
+"📦 Here is a complete list of pairs."
+
+msgid "csv_file_processed_successfully_without_pairs"
+msgstr "✅ CSV file processed successfully.\n"
+"ℹ️ No pairs found."
+
+msgid "user_does_not_have_active_subscription"
+msgstr "ℹ️ User does not have an active subscription."
+
+msgid "user_removed_from_paid_successfully"
+msgstr "✅ User was successfully removed from the paid list."
+
+msgid "remove_from_paid_invalid_arguments_amount"
+msgstr "❌ Invalid amount of arguments for the remove_from_paid command.\n"
+"ℹ️ You have to provide user ID.\n"
+"💡 For example:\n"
+"```/remove_from_paid 123456789```"
+
+msgid "remove_from_paid_invalid_user_id"
+msgstr "❌ Invalid user ID for the remove_from_paid command.\n"
+"💡 User id is a number, which you can get from such bots as @userinfobot."
+
+msgid "activate_subscription_button"
+msgstr "Activate Subscription"
+
+msgid "activate_subscription_suggestion"
+msgstr "❌ You do not have an active seller subscription.\n"
+"👇 Click the button below to activate your subscription."
+
+msgid "buy_client_contacts_button"
+msgstr "Buy Contacts"
+
+msgid "cant_use_sold_command_without_of_subscription"
+msgstr "❌ Sorry, but you can't use /sold command without of an active subscription.\n"
+"💡 Please, buy a subscription and try again."
+
+msgid "invalid_argument_of_sold_command"
+msgstr ""
+"❌ Invalid usage of sold command.\n"
+"💡 You must use this command as follows:\n"
+"```\n"
+"/sold 123\n"
+"```\n"
+"Where 123 is stone id."
+
+msgid "invalid_amount_of_sold_command_arguments"
+msgstr ""
+"❌ Invalid usage of sold command.\n"
+"ℹ️ You have to provide one argument: stone id.\n"
+"💡 For example:\n"
+"```\n"
+"/sold 123\n"
+"```\n"
+"Where 123 is stone id."
+
+msgid "diamond_is_already_sold_or_was_not_in_your_stock"
+msgstr "❌ This diamond is already sold or was not in your stock."
+
+msgid "diamond_sold_successfully"
+msgstr "✅ Diamond was sold successfully."
+
+msgid "client_not_found_notification"
+msgstr "❌ Sorry, some internal error occurred during client contact's search in the database.\n"
+"💡 Please, contact the support team to resolve this issue.\n"
+"🙏 Don't worry, your payment request was saved."
+
+msgid "total_diamonds_limit_exceeded_error"
+msgstr "❌ You have exceeded the total number of diamonds limit.\n"
+
+msgid "diamonds_per_load_limit_exceeded_error"
+msgstr "❌ You have exceeded the number of diamonds per load limit.\n"
+"💡 Please, ensure you have maximum of {} diamonds in the file.\n"
+
+msgid "no_active_subscription_found_error"
+msgstr "❌ It seems like you don't have an active subscription.\n"
+"💡 Please, buy a subscription and try again."
+
+msgid "b2b_group_link_button"
+msgstr "B2B Group"
+
+msgid "from_{from_value}_to_{to_value}"
+msgstr "from {from_value} to {to_value}"
+
+msgid "not_specified"
+msgstr "not specified"
+
+msgid "Color: {color}"
+msgstr "Color: {color}"
+
+msgid "Clarity: {clarity}"
+msgstr "Clarity: {clarity}"
+
+msgid "Carat: {carat}"
+msgstr "Carat: {carat}"
+
+msgid "Shape: {shape}"
+msgstr "Shape: {shape}"
+
+msgid "Diamond - {details}"
+msgstr "💎 - {details}"
+
+msgid "contacts_not_shared_response"
+msgstr "❌ You have to share your contact information to search for stones in the group.\n"
+"👇 Please, share your contact information using the button below."
+
+msgid "contact_information_saved_successfully"
+msgstr "✅ Thanks! Your contact information was saved successfully."
+
+msgid "contact_information_updated_successfully"
+msgstr "✅ Your contact information was updated successfully."
+
+msgid "share_contact_button"
+msgstr "Share Contact"
+
+msgid "no_matching_sellers_response"
+msgstr "🤔 No matching sellers found."
+
+msgid "search_query_processed_response"
+msgstr "✅ Notified sellers about your search query: {}"
+
+msgid "not_enough_data_about_diamonds_response"
+msgstr "❌ Not enough data about diamond.\n"
+"ℹ️ You have to provide at least one diamond with all of the following parameters: carat, color, clarity, shape.\n"
+"⚠️ Please, note, that diamonds with not enough data will be ignored."
+
+msgid "file_with_complete_list_of_similar_diamonds"
+msgstr "📦 Here is a complete list of similar diamonds"
+
+msgid "b2b_group_link_message"
+msgstr "🔗 Join our B2B group!"
+
+msgid "Value \"{value}\" is not valid."
+msgstr "Value \"{value}\" is not valid."
+
+msgid "Value \"{value}\" is not valid in row {row}, column \"{column}\"."
+msgstr "Value \"{value}\" is not valid in row {row}, column \"{column}\"."
+
+msgid "Value \"{value}\" is not numeric."
+msgstr "Value \"{value}\" is not numeric."
+
+msgid "Value \"{value}\" is not numeric in row {row}, column \"{column}\"."
+msgstr "Value \"{value}\" is not numeric in row {row}, column \"{column}\"."
+
+msgid "Value \"{value}\" is not an integer."
+msgstr "Value \"{value}\" is not an integer."
+
+msgid "Value \"{value}\" is not an integer in row {row}, column \"{column}\"."
+msgstr "Value \"{value}\" is not an integer in row {row}, column \"{column}\"."
+
+msgid "Any text value expected."
+msgstr "Any text value expected."
+
+msgid "Any text value expected in row {row}, column \"{column}\"."
+msgstr "Any text value expected in row {row}, column \"{column}\"."
+
+msgid "Value \"{value}\" is not a measurements."
+msgstr "Value \"{value}\" is not a measurements."
+
+msgid "Value \"{value}\" is not a valid measurements in row {row}, column \"{column}\"."
+msgstr "Value \"{value}\" is not a valid measurements in row {row}, column \"{column}\"."
+
+msgid "Value \"{value}\" is not a valid option."
+msgstr "Value \"{value}\" is not a valid option."
+
+msgid "Value \"{value}\" is not a valid option in row {row}, column \"{column}\"."
+msgstr "Value \"{value}\" is not a valid option in row {row}, column \"{column}\"."
+
+msgid "Value \"{value}\" is not a valid URL."
+msgstr "Value \"{value}\" is not a valid URL."
+
+msgid "Value \"{value}\" is not a valid URL in row {row}, column \"{column}\"."
+msgstr "Value \"{value}\" is not a valid URL in row {row}, column \"{column}\"."
+
+msgid "File is not a CSV file."
+msgstr "File is not a CSV file."
+
+msgid "file_too_large_error"
+msgstr "❌ File is too large."
+
+msgid "Unable to process csv file.\n{errors}"
+msgstr "❌ Unable to process csv file.\n{errors}"
+
+msgid "instructions_file_description"
+msgstr "📄 Please, follow the instructions below to prepare the file for the bot."

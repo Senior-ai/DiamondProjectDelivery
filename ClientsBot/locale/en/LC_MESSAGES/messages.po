@@ -1,0 +1,153 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-07-04 17:30+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+msgid "start_message"
+msgstr ""
+"👋 Hello, I am MAZAL, and I'm here to assist you in finding the perfect diamond.\n"
+"💎 Using our service, you can easily search for diamonds that match your criteria by simply typing your requirements."
+
+msgid "help_message"
+msgstr ""
+"📋 **Available Commands:**\n"
+"\n"
+"🔹 /start: Start the bot. This command initiates interaction with the bot.\n"
+"🔹 /settings: Open the settings menu. Allows you to change the language.\n"
+"🔹 /help: Get a list of available commands with brief descriptions."
+
+msgid "unknown_command_error"
+msgstr "❌ Error: Unknown command."
+
+msgid "lost_context_error"
+msgstr "❌ Lost context. Please, try needed command again."
+
+msgid "settings_message"
+msgstr ""
+"⚙️ Settings:\n"
+"🌍 Your current language: English"
+
+msgid "change_language_button"
+msgstr "Change language"
+
+msgid "choose_new_language_prompt"
+msgstr "Choose language:"
+
+msgid "choose_new_language_callback_query_reply"
+msgstr "Please, choose new language."
+
+msgid "english_language_option_button"
+msgstr "English"
+
+msgid "hebrew_language_option_button"
+msgstr "Hebrew"
+
+msgid "settings_session_expired_message"
+msgstr ""
+"⏰ Your settings session has expired. Please, open settings again using "
+"/settings command."
+
+msgid "close_button"
+msgstr "Close"
+
+msgid "back_button"
+msgstr "Back"
+
+msgid "language_was_changed_to_{}"
+msgstr "Language was changed to: {}"
+
+msgid "no_matching_sellers_response"
+msgstr "🤔 No matching sellers found."
+
+msgid "search_query_processed_response"
+msgstr "✅ Notified sellers about your search query: {}"
+
+msgid "not_enough_data_about_diamonds_response"
+msgstr ""
+"❌ Not enough data about diamond.\n"
+"ℹ️ You have to provide at least one diamond with all of the following "
+"parameters: carat, color, clarity, shape.\n"
+"⚠️ Please, note, that diamonds with not enough data will be ignored."
+
+msgid "share_contact_button"
+msgstr "Share Contact"
+
+msgid "please_share_your_contact_information_prompt"
+msgstr ""
+"ℹ️ Please, share your contact information with us.\n"
+"✅ This will allow sellers to contact you.\n"
+"⚠️ Please, note, that you'll not be able to search for stones without "
+"sharing your contact information."
+
+msgid "contact_information_saved_successfully"
+msgstr ""
+"✅ Thanks! Your contact information was saved successfully. Now, you can "
+"search for stones, just type what you need."
+
+msgid "contact_information_updated_successfully"
+msgstr "✅ Your contact information was updated successfully."
+
+msgid "contacts_not_shared_response"
+msgstr ""
+"❌ You have to share your contact information to search for stones.\n"
+"👇 Please, share your contact information using the button below."
+
+msgid "processing_your_search_query"
+msgstr "⏳ Processing your search query..."
+
+msgid "no_diamonds_in_message_response"
+msgstr ""
+"❌ No concrete diamonds found in your message.\n"
+"ℹ️ Please, provide at least one diamond with shape, color, clarity and "
+"carats."
+
+msgid "you_cant_share_contact_information_of_another_user"
+msgstr "❌ You can't share contact information of another user."
+
+msgid "educational_message_1"
+msgstr ""
+"ℹ️ Information about the 4Cs of diamonds:\n"
+"Carat - The weight of the diamond. The higher the carat, the heavier the diamond.\n"
+"Color - Diamonds come in a variety of colors, with colorless being the rarest.\n"
+"Clarity - The level of inclusions or blemishes in the diamond. The higher the clarity, the fewer the blemishes.\n"
+"Cut - How the diamond is cut and shaped. The cut affects the diamond's brilliance and sparkle."
+
+msgid "educational_message_2"
+msgstr ""
+"ℹ️ Did you know about the 4Cs of diamonds?\n"
+"Carat - Refers to the diamond's weight. Higher carat weight means a larger diamond.\n"
+"Color - Diamonds range in color. Colorless diamonds are the most valued.\n"
+"Clarity - Indicates the purity of the diamond. Higher clarity means fewer internal flaws.\n"
+"Cut - The quality of a diamond's cut affects its light performance and beauty."
+
+msgid "educational_message_3"
+msgstr ""
+"ℹ️ Learn about the 4Cs that define a diamond's quality:\n"
+"Carat - Measures the weight of the diamond. Larger carat weight signifies a bigger diamond.\n"
+"Color - Diamonds have different colors, with the most prized being colorless.\n"
+"Clarity - Denotes the presence of inclusions. Higher clarity diamonds are more valuable.\n"
+"Cut - The precision of the diamond's cut influences its brilliance and sparkle."
+
+msgid "educational_message_4"
+msgstr ""
+"ℹ️ Understanding the 4Cs of diamonds can help you make an informed purchase:\n"
+"Carat - Indicates the weight and size of the diamond. Bigger diamonds have higher carats.\n"
+"Color - Diamonds can be found in various colors, with the rarest being colorless.\n"
+"Clarity - Refers to the imperfections within the diamond. Fewer imperfections mean higher clarity.\n"
+"Cut - A well-cut diamond will reflect light better, enhancing its overall appearance."
+
+msgid "failed_to_notify_sellers_response"
+msgstr "❌ Failed to notify sellers about your search query."
+
+msgid "message_without_text_response"
+msgstr "🔍 Text is required for the search query. Please, provide your query in text format."

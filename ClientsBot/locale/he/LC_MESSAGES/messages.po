@@ -1,0 +1,145 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-07-04 17:30+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: he\n"
+"Language-Team: he <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+msgid "start_message"
+msgstr ""
+"👋 שלום לך, אני MAZAL, ואני כאן כדי לעזור לך למצוא את היהלום המושלם.\n"
+"💎 באמצעות השירות שלנו, תוכל לחפש בקלות יהלומים התואמים את הקריטריונים שלך על ידי הקלדת הדרישות שלך."
+
+msgid "help_message"
+msgstr ""
+"📋 **פקודות זמינות:**\n"
+"\n"
+"🔹 /start: להתחיל את הבוט. פקודה זו מתחילה את האינטראקציה עם הבוט.\n"
+"🔹 /settings: לפתוח את תפריט ההגדרות. מאפשר לשנות את השפה.\n"
+"🔹 /help: קבלת רשימת פקודות זמינות עם תיאורים קצרים."
+
+msgid "unknown_command_error"
+msgstr "❌ שגיאה: פקודה לא מוכרת."
+
+msgid "lost_context_error"
+msgstr "❌ איבוד הקשר. נא לנסות שוב את הפקודה הנדרשת."
+
+msgid "settings_message"
+msgstr ""
+"⚙️ הגדרות:\n"
+"🌍 השפה הנוכחית שלך: אנגלית"
+
+msgid "change_language_button"
+msgstr "שנה שפה"
+
+msgid "choose_new_language_prompt"
+msgstr "בחר שפה:"
+
+msgid "choose_new_language_callback_query_reply"
+msgstr "נא לבחור שפה חדשה."
+
+msgid "english_language_option_button"
+msgstr "אנגלית"
+
+msgid "hebrew_language_option_button"
+msgstr "עברית"
+
+msgid "settings_session_expired_message"
+msgstr ""
+"⏰ מושב ההגדרות שלך פג תוקף. נא לפתוח את ההגדרות שוב באמצעות הפקודה /settings."
+
+msgid "close_button"
+msgstr "סגור"
+
+msgid "back_button"
+msgstr "חזור"
+
+msgid "language_was_changed_to_{}"
+msgstr "השפה שונתה ל: {}"
+
+msgid "no_matching_sellers_response"
+msgstr "🤔 לא נמצאו מוכרים מתאימים."
+
+msgid "search_query_processed_response"
+msgstr "✅ המוכרים הודעו על חיפושך: {}"
+
+msgid "not_enough_data_about_diamonds_response"
+msgstr ""
+"❌ אין מספיק נתונים על היהלום.\n"
+"ℹ️ עליך לספק לפחות יהלום אחד עם כל הפרמטרים הבאים: קראט, צבע, ניקיון, צורה.\n"
+"⚠️ נא לציין כי יהלומים ללא מספיק נתונים יימחקו."
+
+msgid "share_contact_button"
+msgstr "שתף קשר"
+
+msgid "please_share_your_contact_information_prompt"
+msgstr ""
+"ℹ️ נא לשתף את פרטי הקשר שלך איתנו.\n"
+"✅ זה יאפשר למוכרים ליצור איתך קשר.\n"
+"⚠️ נא לציין שלא תוכל לחפש אבנים ללא שיתוף פרטי הקשר שלך."
+
+msgid "contact_information_saved_successfully"
+msgstr ""
+"✅ תודה! פרטי הקשר שלך נשמרו בהצלחה. כעת תוכל לחפש אבנים, פשוט הקלד מה שאתה צריך."
+
+msgid "contact_information_updated_successfully"
+msgstr "✅ פרטי הקשר שלך עודכנו בהצלחה."
+
+msgid "contacts_not_shared_response"
+msgstr ""
+"❌ עליך לשתף את פרטי הקשר שלך כדי לחפש אבנים.\n"
+"👇 נא לשתף את פרטי הקשר שלך באמצעות הכפתור למטה."
+
+msgid "processing_your_search_query"
+msgstr "⏳ מעבד את חיפושך..."
+
+msgid "no_diamonds_in_message_response"
+msgstr ""
+"❌ לא נמצאו יהלומים ספציפיים בהודעתך.\n"
+"ℹ️ נא לספק לפחות יהלום אחד עם צורה, צבע, ניקיון וקראט."
+
+msgid "you_cant_share_contact_information_of_another_user"
+msgstr "❌ אינך יכול לשתף פרטי קשר של משתמש אחר."
+
+msgid "educational_message_1"
+msgstr ""
+"ℹ️ מידע על 4 ה-C של היהלומים:\n"
+"קרט - משקל היהלום. ככל שמשקל הקרט גבוה יותר, היהלום כבד יותר.\n"
+"צבע - יהלומים מגיעים במגוון צבעים, כאשר חסרי הצבע הם הנדירים ביותר.\n"
+"ניקיון - רמת התכלילים או הפגמים ביהלום. ככל שהניקיון גבוה יותר, כך פחות פגמים.\n"
+"חיתוך - איך היהלום חתוך ומעוצב. החיתוך משפיע על הברק והניצוץ של היהלום."
+
+msgid "educational_message_2"
+msgstr ""
+"ℹ️ האם ידעתם על 4 ה-C של היהלומים?\n"
+"קרט - מתייחס למשקל היהלום. משקל קרט גבוה יותר משמעו יהלום גדול יותר.\n"
+"צבע - יהלומים נעים בצבעים שונים. יהלומים חסרי צבע הם בעלי הערך הגבוה ביותר.\n"
+"ניקיון - מציין את טוהר היהלום. ניקיון גבוה יותר אומר פחות פגמים פנימיים.\n"
+"חיתוך - איכות החיתוך של היהלום משפיעה על ביצועי האור והיופי שלו."
+
+msgid "educational_message_3"
+msgstr ""
+"ℹ️ למדו על 4 ה-C שמגדירים את איכות היהלום:\n"
+"קרט - מודד את משקל היהלום. משקל קרט גדול יותר מציין יהלום גדול יותר.\n"
+"צבע - יהלומים מגיעים בצבעים שונים, כאשר חסרי הצבע הם בעלי הערך הגבוה ביותר.\n"
+"ניקיון - מציין את נוכחות התכלילים. יהלומים בעלי ניקיון גבוה יותר הם בעלי ערך רב יותר.\n"
+"חיתוך - הדיוק בחיתוך היהלום משפיע על הברק והניצוץ שלו."
+
+msgid "educational_message_4"
+msgstr ""
+"ℹ️ הבנת 4 ה-C של היהלומים יכולה לעזור לכם לבצע רכישה מושכלת:\n"
+"קרט - מציין את משקל וגודל היהלום. יהלומים גדולים יותר הם בעלי משקל קרט גבוה יותר.\n"
+"צבע - יהלומים מגיעים במגוון צבעים, כאשר חסרי הצבע הם הנדירים ביותר.\n"
+"ניקיון - מתייחס לפגמים בתוך היהלום. פחות פגמים משמע ניקיון גבוה יותר.\n"
+"חיתוך - יהלום חתוך היטב ישקף אור בצורה טובה יותר, ויעצים את המראה הכללי שלו."
+
+msgid "message_without_text_response"
+msgstr "🔍 טקסט נדרש עבור שאילתת החיפוש. אנא ספק את השאילתה בפורמט טקסט."

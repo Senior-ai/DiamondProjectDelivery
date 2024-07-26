@@ -1,0 +1,335 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-07-07 04:01+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: he\n"
+"Language-Team: he <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+msgid "start_message"
+msgstr ""
+"שלום לך, אני MAZAL ואני כאן כדי לעשות לך סדר.\n"
+"לכולנו קשה לעקוב אחר כל הביקושים שיש בקבוצות,\n"
+"וזה יוצר מצב שאנחנו מפספסים מכירות…\n"
+"\n"
+"בשביל שזה לא יקרה, תוכל להעלות את המלאי שלך בקובץ אקסל,\n"
+"ואנחנו נדאג שבכל פעם שמישהו מחפש את האבנים שיש לך,\n"
+"תקבל הודעה אוטומטית שמישהו מחפש את האבן.\n"
+"\n"
+"הודעה זו תכלול את הפרמטרים של האבן ואפשרות ליצור קשר עם הקונה בלחיצת כפתור פשוטה,\n"
+"ככה לא תצטרך לעקוב כל יום אחר הקבוצה. ההודעות פשוט יגיעו אליך אוטומטית בפרטי.\n"
+"\n"
+"לפני שאנחנו מתחילים, לחץ על הכפתור מטה להרשמה כמנוי.\n"
+"עלות השירות שלנו היא 10.99$ לחודש. אל תדאג, תוכל לרשום את החשבונית על שם החברה שלך."
+
+msgid "help_message"
+msgstr ""
+"📋 **פקודות זמינות:**\n"
+"\n"
+"🔹 /start: מתחיל את הבוט. פקודה זו מתחילה את האינטראקציה עם הבוט ומאפשרת לבצע תשלום.\n"
+"🔹 /settings: תפריט הגדרות. מאפשר לשנות את השפה.\n"
+"🔹 /sold: סימון יהלום כנמכר. ספק את מספר המלאי של היהלום, והבוט יעדכן את בסיס הנתונים המרכזי ויסיר אותו מהמלאי הזמין.\n"
+"🔹 /help: קבלת רשימת פקודות זמינות עם תיאורים קצרים."
+
+msgid "unknown_command_error"
+msgstr "❌ שגיאה: פקודה לא מוכרת."
+
+msgid "lost_context_error"
+msgstr "❌ איבוד הקשר. נא לנסות שוב את הפקודה הנדרשת."
+
+msgid "settings_message"
+msgstr ""
+"⚙️ הגדרות:\n"
+"🌍 השפה הנוכחית שלך: אנגלית"
+
+msgid "change_language_button"
+msgstr "שנה שפה"
+
+msgid "choose_new_language_prompt"
+msgstr "בחר שפה:"
+
+msgid "choose_new_language_callback_query_reply"
+msgstr "נא לבחור שפה חדשה."
+
+msgid "english_language_option_button"
+msgstr "אנגלית"
+
+msgid "hebrew_language_option_button"
+msgstr "עברית"
+
+msgid "settings_session_expired_message"
+msgstr ""
+"⏰ מושב ההגדרות שלך פג תוקף. נא לפתוח את ההגדרות שוב באמצעות הפקודה "
+"/settings."
+
+msgid "close_button"
+msgstr "סגור"
+
+msgid "back_button"
+msgstr "חזור"
+
+msgid "language_was_changed_to_{}"
+msgstr "השפה שונתה ל: {}"
+
+msgid "interested_client_present_notification"
+msgstr ""
+"🔒 יש לקוח שמתעניין ביהלומים שלך! צור איתו קשר כדי לדון בפרטים!\n"
+"\n"
+"🔍 יהלומים שנחפשו:\n"
+"{}\n"
+"\n"
+"📦 יהלומים דומים מהמלאי שלך:\n"
+"```\n"
+"{}\n"
+"```"
+
+msgid "free_interested_client_present_notification"
+msgstr ""
+"🔒 יהלומים מהמלאי שלך נצפו בקבוצה! צור קשר עם האדם לדון בפרטים!\n"
+"\n"
+"🔍 יהלומים שנחפשו:\n"
+"{}\n"
+"\n"
+"📦 יהלומים דומים מהמלאי שלך:\n"
+"```\n"
+"{}\n"
+"```"
+
+msgid "subscription_activated_notification"
+msgstr ""
+"✅ המנוי הופעל!\n"
+"💡 עכשיו תקבל הודעות על לקוחות חדשים שמתעניינים.\n"
+"💡 כמו כן תוכל לשלוח את המלאי שלך כקובץ .csv כדי לקבל הודעות על לקוחות "
+"שמתעניינים!"
+
+msgid "invalid_file_type_error"
+msgstr "❌ סוג קובץ לא תקין. עליך לשלוח קובץ CSV."
+
+msgid "invalid_header_in_csv_file_error"
+msgstr "❌ כותרת לא תקינה בקובץ CSV. {}"
+
+msgid "invalid_row_in_csv_file_error"
+msgstr "❌ שורה לא תקינה בקובץ CSV. {}"
+
+msgid "invalid_value_in_csv_file_error"
+msgstr "❌ ערך לא תקין בקובץ CSV. {}"
+
+msgid "csv_file_error"
+msgstr "❌ שגיאה בקובץ CSV. {}"
+
+msgid "list_of_pairs_preview"
+msgstr ""
+"📦 תצוגת זוגות:\n"
+"```\n"
+"{}\n"
+"```"
+
+msgid "csv_file_processed_successfully_with_pairs"
+msgstr ""
+"✅ הקובץ CSV עובד בהצלחה.\n"
+"📦 הנה רשימת הזוגות המלאה."
+
+msgid "csv_file_processed_successfully_without_pairs"
+msgstr ""
+"✅ הקובץ CSV עובד בהצלחה.\n"
+"ℹ️ לא נמצאו זוגות."
+
+msgid "user_does_not_have_active_subscription"
+msgstr "ℹ️ למשתמש אין מנוי פעיל."
+
+msgid "user_removed_from_paid_successfully"
+msgstr "✅ המשתמש הוסר בהצלחה מהרשימה בתשלום."
+
+msgid "remove_from_paid_invalid_arguments_amount"
+msgstr ""
+"❌ כמות ארגומנטים לא תקינה לפקודת remove_from_paid.\n"
+"ℹ️ עליך לספק מזהה משתמש.\n"
+"💡 לדוגמה:\n"
+"```/remove_from_paid 123456789```"
+
+msgid "remove_from_paid_invalid_user_id"
+msgstr ""
+"❌ מזהה משתמש לא תקין לפקודת remove_from_paid.\n"
+"💡 מזהה משתמש הוא מספר שניתן לקבל מבוטים כמו @userinfobot."
+
+msgid "activate_subscription_button"
+msgstr "הפעל מנוי"
+
+msgid "activate_subscription_suggestion"
+msgstr ""
+"❌ אין לך מנוי פעיל של מוכר.\n"
+"👇 לחץ על הכפתור למטה כדי להפעיל את המנוי שלך."
+
+msgid "buy_client_contacts_button"
+msgstr "קנה פרטי קשר"
+
+msgid "cant_use_sold_command_without_of_subscription"
+msgstr ""
+"❌ מצטערים, אבל אינך יכול להשתמש בפקודת /sold ללא מנוי פעיל.\n"
+"💡 נא לקנות מנוי ולנסות שוב."
+
+msgid "invalid_argument_of_sold_command"
+msgstr ""
+"❌ שימוש לא תקין בפקודת sold.\n"
+"💡 יש להשתמש בפקודה כך:\n"
+"```\n"
+"/sold 123\n"
+"```\n"
+"אשר בו 123 הוא מזהה האבן."
+
+msgid "invalid_amount_of_sold_command_arguments"
+msgstr ""
+"❌ שימוש לא תקין בפקודת sold.\n"
+"ℹ️ עליך לספק פרמטר אחד: מזהה האבן.\n"
+"💡 לדוגמה:\n"
+"```\n"
+"/sold 123\n"
+"```\n"
+"אשר בו 123 הוא מזהה האבן."
+
+msgid "diamond_is_already_sold_or_was_not_in_your_stock"
+msgstr "❌ היהלום הזה כבר נמכר או לא היה במלאי שלך."
+
+msgid "diamond_sold_successfully"
+msgstr "✅ היהלום נמכר בהצלחה."
+
+msgid "client_not_found_notification"
+msgstr ""
+"❌ מצטערים, אירעה שגיאה פנימית במהלך חיפוש פרטי הקשר של הלקוח במאגר "
+"הנתונים.\n"
+"💡 נא לפנות לצוות התמיכה כדי לפתור את הבעיה.\n"
+"🙏 אל תדאג, בקשת התשלום שלך נשמרה."
+
+msgid "total_diamonds_limit_exceeded_error"
+msgstr "❌ חרגת ממגבלת מספר היהלומים הכוללת.\n"
+
+msgid "diamonds_per_load_limit_exceeded_error"
+msgstr ""
+"❌ חרגת ממגבלת מספר היהלומים לטעינה.\n"
+"💡 נא לוודא שיש לך מקסימום של {} יהלומים בקובץ.\n"
+
+msgid "no_active_subscription_found_error"
+msgstr ""
+"❌ נראה שאין לך מנוי פעיל.\n"
+"💡 נא לקנות מנוי ולנסות שוב."
+
+msgid "b2b_group_link_button"
+msgstr "קבוצת B2B"
+
+msgid "from_{from_value}_to_{to_value}"
+msgstr "מ-{from_value} ל-{to_value}"
+
+msgid "not_specified"
+msgstr "לא צוין"
+
+msgid "Color: {color}"
+msgstr "צבע: {color}"
+
+msgid "Clarity: {clarity}"
+msgstr "ניקיון: {clarity}"
+
+msgid "Carat: {carat}"
+msgstr "קראט: {carat}"
+
+msgid "Shape: {shape}"
+msgstr "צורה: {shape}"
+
+msgid "Diamond - {details}"
+msgstr "💎 - {details}"
+
+msgid "contacts_not_shared_response"
+msgstr ""
+"❌ עליך לשתף את פרטי הקשר שלך כדי לחפש אבנים בקבוצה.\n"
+"👇 נא לשתף את פרטי הקשר שלך באמצעות הכפתור למטה."
+
+msgid "contact_information_saved_successfully"
+msgstr "✅ תודה! פרטי הקשר שלך נשמרו בהצלחה."
+
+msgid "contact_information_updated_successfully"
+msgstr "✅ פרטי הקשר שלך עודכנו בהצלחה."
+
+msgid "share_contact_button"
+msgstr "שתף קשר"
+
+msgid "no_matching_sellers_response"
+msgstr "🤔 לא נמצאו מוכרים מתאימים."
+
+msgid "search_query_processed_response"
+msgstr "✅ המוכרים הודעו על חיפושך: {}"
+
+msgid "not_enough_data_about_diamonds_response"
+msgstr ""
+"❌ אין מספיק נתונים על היהלום.\n"
+"ℹ️ עליך לספק לפחות יהלום אחד עם כל הפרמטרים הבאים: קראט, צבע, ניקיון, צורה.\n"
+"⚠️ נא לציין כי יהלומים ללא מספיק נתונים יימחקו."
+
+msgid "file_with_complete_list_of_similar_diamonds"
+msgstr "📦 הנה רשימת יהלומים דומים מלאה"
+
+msgid "b2b_group_link_message"
+msgstr "📩 הצטרף לקבוצת B2B שלנו!"
+
+msgid "Value \"{value}\" is not valid."
+msgstr "הערך \"{value}\" אינו תקין."
+
+msgid "Value \"{value}\" is not valid in row {row}, column \"{column}\"."
+msgstr "הערך \"{value}\" אינו חוקי בשורה {row}, עמודה \"{column}\"."
+
+msgid "Value \"{value}\" is not numeric."
+msgstr "הערך \"{value}\" אינו מספרי."
+
+msgid "Value \"{value}\" is not numeric in row {row}, column \"{column}\"."
+msgstr "הערך \"{value}\" אינו מספרי בשורה {row}, עמודה \"{column}\"."
+
+msgid "Value \"{value}\" is not an integer."
+msgstr "הערך \"{value}\" אינו מספר שלם."
+
+msgid "Value \"{value}\" is not an integer in row {row}, column \"{column}\"."
+msgstr "הערך \"{value}\" אינו מספר שלם בשורה {row}, עמודה \"{column}\"."
+
+msgid "Any text value expected."
+msgstr "מצופה ערך טקסט כלשהו."
+
+msgid "Any text value expected in row {row}, column \"{column}\"."
+msgstr "מצופה ערך טקסט כלשהו בשורה {row}, עמודה \"{column}\"."
+
+msgid "Value \"{value}\" is not a measurements."
+msgstr "הערך \"{value}\" אינו מידות."
+
+msgid ""
+"Value \"{value}\" is not a valid measurements in row {row}, column "
+"\"{column}\"."
+msgstr ""
+"הערך \"{value}\" אינו מידות חוקיות בשורה {row}, עמודה \"{column}\"."
+
+msgid "Value \"{value}\" is not a valid option."
+msgstr "הערך \"{value}\" אינו אפשרות חוקית."
+
+msgid "Value \"{value}\" is not a valid option in row {row}, column \"{column}\"."
+msgstr "הערך \"{value}\" אינו אפשרות חוקית בשורה {row}, עמודה \"{column}\"."
+
+msgid "Value \"{value}\" is not a valid URL."
+msgstr "הערך \"{value}\" אינו כתובת URL חוקית."
+
+msgid "Value \"{value}\" is not a valid URL in row {row}, column \"{column}\"."
+msgstr "הערך \"{value}\" אינו כתובת URL חוקית בשורה {row}, עמודה \"{column}\"."
+
+msgid "File is not a CSV file."
+msgstr "הקובץ אינו קובץ CSV."
+
+msgid "file_too_large_error"
+msgstr "❌ קובץ גדול מדי. יש להשתמש בקובץ בפורמט CSV."
+
+msgid "Unable to process csv file.\n{errors}"
+msgstr "❌ לא ניתן לעבד את קובץ ה-CSV.\n{errors}"
+
+msgid "instructions_file_description"
+msgstr "📄 אנא עקוב אחר ההוראות להלן להכנת הקובץ עבור הבוט."
