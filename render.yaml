@@ -31,15 +31,6 @@ services:
         value: ${payment_provider_api_name}
       - key: LOG_LEVEL
         value: ${log_level}
-    dependsOn:
-      - name: database
-        healthCheckPath: "/api/v1/alive"
-        protocol: "http"
-        port: 8001
-        healthCheckIntervalSeconds: 60
-        healthCheckTimeoutSeconds: 5
-        healthCheckStartTimeoutSeconds: 10
-        healthCheckRetries: 5
 
   - type: web
     name: sellers-bot
